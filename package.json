@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "yarn build-watch",
+    "dev": "yarn build-watch --fix",
     "serve": "yarn build-watch",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",

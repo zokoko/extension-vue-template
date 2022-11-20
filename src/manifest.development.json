@@ -21,5 +21,10 @@
         ],
         "run_at": "document_end"
     }],
-    "web_accessible_resources": ["fonts/*"]
+    "web_accessible_resources": [
+        "*/*"
+      ],
+      "host_permissions": [
+        "https://*.medwords.co/*"
+      ]
 }
